@@ -1,6 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Csharp",
+    "\\Metodos",
+    "\\Metodos\\Metodos"
   ],
+  "SelectedNode": "\\Metodos\\Metodos\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
