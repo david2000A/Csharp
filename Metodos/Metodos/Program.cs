@@ -14,9 +14,12 @@ namespace Metodos
             /*
              
              tipodedatoquedevuelve nombredelmetodo (parametros)
-             
-             
              */
+
+            void mensajeEnPantalla(){
+            
+                Console.WriteLine( "Este es un mensaje desde el metodo mensajeEnPantalla" );
+            }
 
         }
     }
