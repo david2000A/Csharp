@@ -150,8 +150,8 @@ namespace Csharp
             Console.WriteLine("Introduce la medida del radio");
            double radio=double.Parse(Console.ReadLine());
             double area = Math.Pow(radio,2) * PI;
-            Console.WriteLine($"el area del cirulo es {area}");
-            
+            Console.WriteLine($"el area del cirulo es {area}"); 
+               
             //hacer una pausa en el programa
 
             Console.ReadKey();
