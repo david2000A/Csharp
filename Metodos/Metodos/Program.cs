@@ -11,18 +11,12 @@ namespace Metodos
         static void Main(string[] args)
         {
 
-            /*
-             
-             tipodedatoquedevuelve nombredelmetodo (parametros)
-             */
-
-            
-
         }
 
-        void mensajeEnPantalla(){
-            
-                Console.WriteLine( "Este es un mensaje desde el metodo mensajeEnPantalla" );
-            }
+        void mensajeEnPantalla()
+        {
+           Console.WriteLine( "Este es un mensaje desde el metodo mensajeEnPantalla" );
+        }
+
     }
 }
