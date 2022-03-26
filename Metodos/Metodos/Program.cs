@@ -12,9 +12,17 @@ namespace Metodos
         {
             mensajeEnPantalla();
 
-            Console.WriteLine("Este es un mensaje del main");
+          //  Console.WriteLine("Este es un mensaje del main");
+
+            Console.WriteLine("ingresa el primer numero");
+
+            int num1 = int.Parse(Console.ReadLine());
             
-            Console.WriteLine("el resultado de la suma es: "+sumaNumeros(1,2));
+            Console.WriteLine("ingresa el segundo numero");
+
+            int num2 = int.Parse(Console.ReadLine());  
+            
+            Console.WriteLine("el resultado de la suma es: "+sumaNumeros(num1,num2));
 
             Console.ReadKey();
 
@@ -36,6 +44,8 @@ namespace Metodos
 
              
         }
+
+        //static int otraformadehacermetodos (int numerouno,int numerodos) => numerouno + numerodos; 
 
     }
 }
